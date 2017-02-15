@@ -249,42 +249,68 @@ input[type=submit] {
 
 /*}*/
 
-/*@media screen and (max-width: 768px){
-		body {
-			width: 100%;
-			margin: 0;
-		}
-
-		header {
-		width: 100%;
-		}
-
-		.name {
+@media screen and (max-width: 768px){
+		.container {
 			margin-left: 10px;
+			overflow: auto;
 		}
 
-		.menu-header {
-			margin-right: 10px;
-			margin-left: 10px;
-			padding-right: 0;
-			float: right;
+		#masthead{
+			overflow: hidden;
 		}
 
-		.bio-area {
-			width: 100%;
+		nav {
+			margin-right:  10px;
+			clear: auto;
 		}
 
-		#about-me {
-			margin-left: 10px;
-			width: 748px;
+		.main-section {
+			max-width: 768px;
+			margin-right: 30px;
 		}
 
-		.footer {
-			width: 768px;
+		.sidebar {
+			float: left;
+			max-width: 768px;
+			margin-right: 30px;
+		}
+		
+		.work {
+  			width: 46%;
+		}
+		
+		.work:nth-child(odd) {
+  			float: right;
 		}
 }
 
-*/
+@media screen and (max-width: 640px){
+		#logo {
+			width: 100%;
+			margin: 0;
+		}
+		
+		nav {
+			width: 100%;
+
+		}
+
+		nav a {
+			width: 30%;
+			padding-left: 60px;
+		}
+		
+		.work {
+  			width: 100%;
+		}
+
+		.main-section {
+			max-width: 640px;
+			margin-top: 40px;
+		}	
+}
+
+
 
 
 
